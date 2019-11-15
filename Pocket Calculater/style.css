@@ -1,0 +1,17 @@
+/* CSS STYLE */
+
+*{margin: 0; padding: 0;}
+body{background-image: url("bg.png"); background-repeat: no-repeat; background-size: 50%;}
+
+#title{width: 100%; background: none; text-align: center; font-family: arial; font-size: 40px; margin-top: 100px; color:#3f475b; font-weight: 600; }
+
+#wrapper{width:300px; height: 350px; background: #3f475b; margin: auto; margin-top: 50px; border-radius: 10px; border-bottom: 10px solid #f3586d; padding: 25px;}
+
+#resultPart{width: 100%; background: none;; height: 70px;}
+#resultPart input{width: 210px; height: 50px; background: #828a9b; border: none; border-radius: 5px; border-top: 5px solid #e8576b; color: white; font-family: arial; font-size: 20px; padding-left:15px;}
+#resultPart #clear{width: 60px; height: 50px; margin-left: 5px; background: #828a9b; border: none; border-radius: 5px; color: white; font-weight: 600; font-family: arial; font-size: 20px; }
+
+#buttonPart .button{width: 65px; height: 45px; border: none; border-radius: 5px; border-bottom: 5px solid #828a9b; margin-left: 5px; margin-top: 20px;  font-family: arial; font-size: 15px;  font-weight: 600;} 
+#calculate{background: #f83240; color:white;}
+
+#buttonPart .button:hover{background: #99edff; }
